@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Rock Paper Scissors</title>
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+    <body>
+        <div class = "game">
+            <h1 class = "heading">Rock Paper Scissors</h1>
+            <h1 class = "heading" id = "MyChoice">Select Your Choice: </h1>
+            <div class = "btncontainer">
+                <button class = "buttons" id = "Rock" onclick = "playGame(-1)">Rock</button>
+                <button class = "buttons" id = "Paper" onclick = "playGame(0)">Paper</button>
+                <button class = "buttons" id = "Scissors" onclick = "playGame(1)">Scissors</button>
+            </div>
+
+            <h1 class = "heading">Computer's Choice: </h1>
+            <div class = "monitor">
+                <h1 id = "ComputerChoice"></h1>
+            </div>
+            <h1 class = "heading">Result: </h1>
+            <div class = "monitor"> 
+                <h1 id = "result"></h1>
+            </div>
+        </div>
+        <script src = "RockPaperScissors.js"></script>
+    </body>
+</html>
